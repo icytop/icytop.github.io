@@ -179,20 +179,35 @@ input, select, textarea {
 /* Container */
 
 	.container {
-		margin: 0 auto;
+/*		margin: 0 auto;
 		max-width: 100%;
-		width: 1400px;
+		width: 1400px;*/
+		width: 200px;
+    	overflow:hidden;
+    	display:block;
+    	height: 300px;
+
 	}
 
 		.container.medium {
-			width: 1050px;
+/*			width: 1050px;*/
+			width: 200px;
 		}
 
 		@media screen and (max-width: 1680px) {
 
 			.container {
-				width: 1200px;
+/*				width: 1200px;*/
+		width: 300px;
+    	overflow:hidden;
+    	display:block;
+    	height: 400px;
+    	display:inline-block;
 			}
+						#meep{
+    			margin-left: -300px;
+    			margin-bottom: 500px;
+    		}
 
 				.container.medium {
 					width: 900px;
@@ -203,7 +218,11 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.container {
-				width: 960px;
+/*				width: 960px;*/
+		width: 200px;
+    	overflow:hidden;
+    	display:block;
+    	height: 300px;
 			}
 
 				.container.medium {
@@ -3271,7 +3290,7 @@ input, select, textarea {
 				#banner .inner {
 					background: none;
 					display: block;
-					padding: 0 1.5em;
+					padding: 0 ;
 				}
 
 					#banner .inner header h2 {
@@ -3337,5 +3356,20 @@ input, select, textarea {
 				width: 50px;
 				height: 34px;
 			}
+
+		/* Video */
+			.video{
+    			width: 200px;
+    			overflow:hidden;
+    			display:block;
+    			height: 200px;
+			}
+			#meep{
+    			margin-left: -100px;
+
+			}
+		#inlinepls{
+			display:inline-block;
+		}
 
 	}
